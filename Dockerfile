@@ -11,4 +11,4 @@ ENV WORDPRESS_DB_HOST=database-2.cqt9uwum4p5s.us-east-1.rds.amazonaws.com \
 
 COPY plugins/ /var/www/html/wp-content/plugins
 COPY themes/ /var/www/html/wp-content/themes
-COPY uploads/ /var/www/html/wp-content/uploads
+#COPY uploads/ /var/www/html/wp-content/uploads
